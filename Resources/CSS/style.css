@@ -92,20 +92,6 @@ header h1 {
     display: none;
 }
 
-#banner_top .start_button_desktop:hover {
-    background-color: darkblue;
-    rotate: 360deg;
-    height: 10rem;
-    font-size: 3.5rem;
-}
-
-#banner_top .start_button_desktop {
-    transition-property: background-color, rotate, height, font-size;
-    transition-duration: 0.5s;
-    transition-timing-function: linear;
-    transition-delay: 0.2s;
-}
-
 #banner_top h2, h3, h4 {
     display: inline-block;
     margin: 1.5rem 0;
