@@ -1,0 +1,353 @@
+/* Universal Styling */
+
+body {
+    font-family: Verdana, "Roboto", sans-serif;
+    outline: 0.2rem #ea8012 solid;
+    width: 99.7%;
+    margin: 0.13rem 0.1rem 0.2rem 0.13rem;
+}
+
+
+/* ----- Header ----- */
+
+header {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    width: 97%;
+    padding: 0 1.2rem 0 1.125rem;
+}
+
+.logo {
+    height: 3.5rem;
+    width: auto;
+    margin-top: 0.225rem;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    flex: 1 1 0;
+    margin: auto 0;
+}
+
+.colmar {
+    font-weight: 700;
+}
+
+.academy {
+    font-weight: 300;
+    color: grey;
+}
+
+.header_right h3 {
+    display: inline;
+    margin-left: 1rem;
+}
+
+
+/* ----- Main Content ----- */
+
+/* Banner Top */
+
+#banner_top {
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 2rem 2.2rem;
+}
+
+#banner_top img {
+    width: 60%;
+    height: auto;
+}
+
+.banner_top_right {
+    width: 40%;
+    margin-left: 4.5rem;
+    display: inline-block;
+}
+
+#banner_top h2 {
+    color: rgb(64, 66, 66);
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+#banner_top h3 {
+    color: rgb(64, 66, 66);
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+#banner_top h4 {
+    text-align: center;
+    align-content: center;
+    color: white;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    background-color: rgb(64, 66, 66);
+}
+
+#banner_top .start_button_mobile {
+    display: none;
+}
+
+#banner_top .start_button_desktop:hover {
+    background-color: darkblue;
+    rotate: 360deg;
+    height: 10rem;
+    font-size: 3.5rem;
+}
+
+#banner_top .start_button_desktop {
+    transition-property: background-color, rotate, height, font-size;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0.2s;
+}
+
+#banner_top h2, h3, h4 {
+    display: inline-block;
+    margin: 1.5rem 0;
+    width: 85%;
+}
+
+
+/* --- Banner Bottom --- */
+
+.banner_bottom {
+    display: flex;
+}
+
+/* Bottom Banner Left */
+
+.banner_bottom_left {
+    width: 60%;
+    padding: 2rem 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.banner_bottom_left img {
+    width: 100%;
+}
+
+.banner_bottom_left q {
+    display: block;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+.banner_bottom_left h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.banner_bottom_left p {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+/*  Bottom Banner Right */
+
+.banner_bottom_right {
+    width: 40%;
+    padding: 2rem 0 0 0;
+    border-left: 1px lightgrey solid;
+}
+
+.info_box {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 1.3rem 0 1.3rem 1.5rem;
+    border-bottom: 1px lightgrey solid;
+}
+
+.info_box1 {
+    padding-top: 0;
+}
+
+.info_box3 {
+    background-color: lightgrey;
+    border-bottom: none;
+}
+
+.banner_bottom_right img {
+    width: 35%;
+}
+
+.banner_bottom_right .mobile_img {
+    display: none
+}
+
+.info_details {
+    margin-left: 1.4rem;
+    width: fit-content;
+    padding-right: 1rem;
+}
+
+.info_details .title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0 0 0 0;
+}
+
+.info_details .line_height {
+    line-height: 2;
+    margin: 1rem 0;
+}
+
+.info_details a {
+    text-decoration: none;
+    color: #4297f0;
+}
+
+.space_box {
+    height: 2rem;
+}
+
+
+/* --- Start Learning --- */
+
+#start_learning {
+    background-color: lightgrey;
+}
+
+#start_learning h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 3rem 0 1rem 0;
+    margin-top: 0;
+}
+
+.career_box {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 6.5rem 4rem 5rem;
+}
+
+.careers {
+    margin: 0 0 1rem 1.5rem;
+    flex: 1 1 30%;
+    background-color: white;
+}
+
+.careers img {
+    width:100%;
+}
+
+.careers p {
+    margin-left: 1.5rem;
+    padding: 0 4rem 0 0;
+}
+
+.careers .career_name {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.careers .line_height {
+    line-height: 1.7;
+}
+
+
+/* --- Thesis Exhibits --- */
+
+#thesis_exhibits h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 3rem 0 1rem 0;
+    margin-top: 0;
+}
+
+.thesis_banner_box {
+    display: flex;
+}
+
+.thesis_left {
+    width: 60%;
+    padding: 0 1.6rem 0 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.thesis_left video {
+    width: 100%;
+}
+
+.thesis_left h3 {
+    margin-bottom: 2.1rem;
+}
+
+.thesis_left q {
+    line-height: 1.8;
+}
+
+.thesis_left h3 {
+    display: block;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.thesis_right {
+    width: 40%;
+    padding: 0 0 0 0;
+    border-left: 1px lightgrey solid;
+}
+
+.info_box_b {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 1.3rem 0 1.3rem 1.5rem;
+}
+
+.info_box_b img {
+    width: 35%;
+}
+
+.info_b_details {
+    padding: 0.8rem 1rem 0 2rem;
+    width: fit-content;
+}
+
+.info_box_b .title_b {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+
+.thesis_right .fisma {
+    background-color: lightgrey;
+}
+
+
+/* --- Footer --- */
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    width: auto;
+    border-top: 1px lightgrey solid;
+}
+
+footer .copyright {
+    flex: 1 1 0;
+    padding-left: 1.5rem;
+}
+
+footer .footer_right {
+    padding-right: 1.5rem;
+}
+
+footer h6 {
+    display: inline-block;
+    margin:0 0.5rem 0 0;
+    font-size: 0.8rem;
+}

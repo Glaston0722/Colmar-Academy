@@ -1,0 +1,278 @@
+/* Universal Styling */
+
+@media only screen and (min-width: 2000px) {
+
+    html,
+    body {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+
+    html,
+    body {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    html,
+    body {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    html,
+    body {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    html,
+    body {
+        font-size: 7.5px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    html,
+    body {
+        font-size: 6.5px;
+    }
+}
+
+
+/* ----- Header ----- */
+
+@media only screen and (min-width: 540px) {
+    header .mobile_nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    header {
+        height: fit-content;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    header h1,
+    header img,
+    header .header_right {
+        display: none;
+    }
+
+    header .mobile_nav {
+        display: block;
+    }
+
+    header img {
+        width: 8%;
+    }
+
+
+    /* Banner Top */
+
+    #banner_top {
+        display: block;
+        padding: 0 0.2rem;
+    }
+
+    #banner_top img {
+        display: block;
+        width: 100%;
+    }
+
+    .banner_top_right {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 1.8rem 0 0 0;
+    }
+
+    #banner_top h2, h3 {
+        width: 87%;
+         padding: 0 0 0 2rem;
+    }
+
+    #banner_top h2 {
+        font-size: 4.5rem;
+    }
+
+    #banner_top h3 {
+        font-size: 3.3rem;
+    }
+
+    #banner_top .start_button_desktop {
+        display: none;
+    }
+
+    #banner_top .start_button_mobile {
+        display: inline-block;
+    }
+
+    #banner_top .start_button_mobile {
+        width: 91.6%;
+        margin: 3rem 0 4rem 2.2rem;
+        font-size: 2.6rem;
+        height: 6rem;
+    }
+    
+}
+
+
+/* Bottom Banner Left */
+
+@media only screen and (max-width: 540px) {
+    .banner_bottom_left {
+        display: none;
+    }
+}
+
+
+/*  Bottom Banner Right */
+
+@media only screen and (min-width: 2600px) {
+    .info_box {
+        width: 97.5%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    .banner_bottom_right {
+        width: 100%;
+        padding: 2.5rem 3rem 2rem 3rem;
+    }
+
+    .info_box {
+        display: block;
+        width: 100%;
+        border: none;
+        padding: 0;
+    }
+
+    .info_box img {
+        display: none;
+    }
+
+    .banner_bottom_right .mobile_img {
+        display: block;
+        width: 100%;
+        height: 30rem;
+        margin-bottom: 3.5rem;
+    }
+
+    .info_box3 {
+        background-color: white;
+    }
+
+    .info_details {
+        width: 90%;
+        margin: 0 0 2rem 2rem;
+    }
+
+    .info_details .title {
+        font-size: 3.3rem;
+    }
+
+    .info_details p, a {
+        font-size: 2.2rem;
+    }
+}
+
+
+/* Start Learning */
+
+@media only screen and (max-width: 540px) {
+
+    #start_learning {
+        background-color: white;
+        border-top: 1px lightgrey solid;
+        border-bottom: 1px lightgrey solid;
+    }
+
+    #start_learning h2 {
+        font-size: 4.5rem;
+        margin: 0rem 0 4rem 0;
+    }
+
+    .career_box {
+        flex-flow: column wrap;
+        padding: 0rem 3rem 4rem 3rem;
+    }
+
+    .careers {
+        background-color: lightgrey;
+        padding: 1.4rem 0 0 1rem;
+        margin: 0 0 1.5rem 0;
+    }
+
+    .careers img {
+        display: none;
+    }
+
+    .careers p {
+        display: none;
+    }
+
+    .careers .career_name {
+        display: block;
+        font-size: 3rem;
+        height: 7rem;
+    }
+}
+
+/* Thesis exhibits */
+
+@media only screen and (max-width: 540px) {
+    #thesis_exhibits {
+        margin-bottom: 3rem;
+    }
+
+    #thesis_exhibits h2 {
+        font-size: 4.5rem;
+        padding: 4rem 0 1rem 0;
+        margin: 0 0 2.5rem 0;
+    }
+
+    .thesis_left h3,
+    .thesis_left q,
+    .thesis_right {
+        display: none;
+    }
+
+    .thesis_left {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Footer */ 
+
+@media only screen and (max-width: 540px) {
+    footer {
+        border-top: none;
+    }
+
+    footer h6 {
+        font-size: 1.2rem;
+        text-align: center;
+        padding-bottom: 2.5rem;
+    }
+
+    .footer_right {
+        display: none;
+    }
+}
