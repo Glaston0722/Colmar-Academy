@@ -134,7 +134,7 @@
 
 /* Bottom Banner Left */
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 340px) {
     .banner_bottom_left {
         display: none;
     }
